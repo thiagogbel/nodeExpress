@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>GET - Buscar por CPF</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav>
+  <a href="/post/index.html">Cadastrar (POST)</a>
+  <a href="/get/index.html">Buscar (GET)</a>
+  <a href="/put/index.html">Atualizar (PUT)</a>
+  <a href="/delete/index.html">Deletar (DELETE)</a>
+    </nav>
+
+    <div class="container">
+        <h2>Buscar Registro (CPF)</h2>
+        <input type="text" id="cpfBusca" placeholder="Digite o CPF">
+        <button onclick="buscarCPF()">Buscar</button>
+        <div id="resultado" class="result-box"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
